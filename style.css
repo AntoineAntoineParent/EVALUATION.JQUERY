@@ -1,0 +1,40 @@
+.article {
+  background-color: rebeccapurple;
+}
+
+#news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#news > div {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 1px;
+  background-color: rgb(158, 157, 157);
+  vertical-align: text-bottom;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+
+#news > div img {
+  width: 250px;
+  height: auto;
+  background-color:red;
+}
+
+#news > div button {
+  background-color: rgb(145, 145, 245);
+  border-radius: 10px;
+  align-self: right;
+}
+
+body > #nuit{
+  
+  background-color: black;
+  border-radius: 10px;
+  align-self: right;
+  color: white;
+}
